@@ -1,0 +1,148 @@
+	1- HTTP, GET e POST 19/08/15
+-servlet
+-jsp
+
+
+https://bitly.com/ifpe_web2_2015_2
+
+ESTUDAR:
+1-Ler o capitulo 1 do livro use a cabeça sevlet e jsp 
+2-Entender e efetuar a pratica
+
+ramidedantas@recife.ifpe.edu.br
+Material:
+use a cabeça servlets e jsp 2º edição
+
+Requisitos:
+-java
+-OO
+-banco de Dados
+-requisitos
+
+*Introdução
+ HTTP
+ POST
+ GET
+
+*Servlet
+
+*Introdução a JSP
+
+*JSTL
+
+*JDBC
+
+*Metodologia
+aula expositivas
+aulas práticas
+Acompanhamento de projeto
+
+*Avaliações
+projeto em 4 etapas + final (mes de intervalo)
+
+1-ideia
+2-versão inicial
+3-versão alfa
+4-versão beta
+5-versão final
+
+*Pontos
+Funcionalidade + inplementação + bônus (dificuldade + originalidade)
+
+OBS. O projeto pode ser o mesmo de padrões
+Projeto em equipe até 3 pessoas
+
+*Manual de Sobrevivencia
+aproveite as aulas de acompanhamento do proejto
+antecipe as partes mais complexas e tire duvidas ( tecnologias q não tenha dominio)
+não deixe para ultima hora
+
+1 unidade
+-desenvolver um projeto e apresentar (apenas documentação)
+-teorias
+
+2 unidade
+prática
+trabalhar mais o projeto
+
+
+------------------------------------------------------------------------
+		Protocolo HTTP
+protocolo de trasferencia de Hiper Texto (HTML) o HTML tem a capacidade do FTP
+ftp -> trasnferencia de arquivos (ex. baixar arquivo)
+
+Clientes e Servidores
+requisição
+resposta
+
+Cliente browser - faz as requisições
+Servidor (software responsavel por fornecer algum tipo de serviço) - responde as requisições do cliente (browser)
+
+PHP e JAVA são equivalentes
+PHP -> é mais simples ideal para iniciar
+JAVA -> mais complexo, completo, e uma API
+
+HTTP 
+Roda no topo do TCP/IP
+Especificado na RFC 2616
+Utiliza a porta 80
+
+E a Solicitação?
+GET -> só obtem a resposta não alterando o estado do servidor
+1 usuario digita um site
+2 o servidor busca a página (caso a página nnão esteja lá ele retorna com um erro 200)
+
+POST ->  solicita algo e ao mesmo tempo envia dados (ex. um formulário)
+
+na mensagem de texto GET e POST
+até a interrogação é a informação 
+
+obs.
+color=dark&teste=malty
+GET- esse termo no inicio da mensagem está exposto no URL (obs. é perigoso por ficar visivel - usuario e senha) o GET tem um tamanho limitado
+POST - esse termo no fim da mensagem está encapsulada no corpo
+o resultado vai ser sempre um HTML
+
+quando usar GET e POST?
+GET
+-solicitar uma página via hiperlink
+
+POST
+-digitar login e senha
+-enviar um formulário para o servidor
+-enviar uma resposta
+OBS.
+GET obter coisas
+POST enviar dados para serem processados
+
+QUERY STRING -
+
+Página estática - nunca muda
+página dinâmina - gera requisições de acordo com o cliente
+
+
+servidor + aplicação web server (p/ gerar um conteudo dinamicamente)
+
+SERVLETS ? (JSP)
+-NÃO É um programa standAlone (ou seja não roda sozinho)
+-
+Frame work java?
+
+OBS.deplyment descriptor?
+é um documento xml que descreve a aplicação
+servlet-mapping- dia pra url quel o servlet casa com ele
+
+
+COMPONENTE WEEB CONTEINER???
+acopla ao servidor?
+container contem
+ web.xml
+ servidor
+ aplicação web
+
+	JSP
+java dentro do HTML = JSP
+
+
+-tOMCAT ou Glassfish(javaEE)
+-tambêm é um servidor web simples (menos robusto q o Apache)
